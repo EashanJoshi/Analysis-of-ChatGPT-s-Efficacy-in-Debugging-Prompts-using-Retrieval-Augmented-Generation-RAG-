@@ -10,17 +10,17 @@ Dataset Description:
 https://github.com/NAIST-SE/DevGPT/blob/main/DevGPT_Link_Sharing_Preprint.pdf
 
 Findings:
-Generic Queries in Debugging: ChatGPT’s initial responses were often too broad, making bug identification slower. Developers had to manually refine queries due to the lack of targeted follow-up questions, which could have improved efficiency.
+1. Generic Queries in Debugging: ChatGPT’s initial responses were often too broad, making bug identification slower. Developers had to manually refine queries due to the lack of targeted follow-up questions, which could have improved efficiency.
 
-Impact on Bug Localization: The absence of specific, relevant follow-ups resulted in longer times to identify and resolve bugs. More tailored interactions could have significantly sped up the process.
+2. Impact on Bug Localization: The absence of specific, relevant follow-ups resulted in longer times to identify and resolve bugs. More tailored interactions could have significantly sped up the process.
 
-Resolution Time Variations: Bug resolution times varied across languages, ranging from 1 to 56 days, depending on error complexity. This highlighted ChatGPT’s difficulty in addressing complex issues with generic responses.
+3. Resolution Time Variations: Bug resolution times varied across languages, ranging from 1 to 56 days, depending on error complexity. This highlighted ChatGPT’s difficulty in addressing complex issues with generic responses.
 
 Dynamic Prompt Engineering Prototype:
-Single-Turn Interactions: The prototype improved ChatGPT’s responses by making them more relevant and focused on the specific issue at hand, reducing the need for additional clarifications.
+1. Single-Turn Interactions: The prototype improved ChatGPT’s responses by making them more relevant and focused on the specific issue at hand, reducing the need for additional clarifications.
 
-Multi-Turn Interactions: In multi-turn dialogues, the prototype refined each follow-up question, maintaining context and delivering progressively more precise responses, which enhanced debugging efficiency.
+2. Multi-Turn Interactions: In multi-turn dialogues, the prototype refined each follow-up question, maintaining context and delivering progressively more precise responses, which enhanced debugging efficiency.
 
-Impact: By generating more targeted follow-up queries, the prototype reduced bug localization and resolution time, making interactions more efficient.
+3. Impact: By generating more targeted follow-up queries, the prototype reduced bug localization and resolution time, making interactions more efficient.
 
 
