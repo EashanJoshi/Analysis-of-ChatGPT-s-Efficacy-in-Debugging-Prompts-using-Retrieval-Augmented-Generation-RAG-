@@ -1,26 +1,37 @@
-# Quantitative-Analysis-of-ChatGPT-s-Efficacy-in-Software-Debugging-Prompts
-Quantitative Analysis of ChatGPT's Efficacy in Software Debugging Prompts
+# Quantitative Analysis of ChatGPT's Efficacy in Software Debugging Prompts using Retrieval-Augmented Generation (RAG)
+Quantitative Analysis of ChatGPT's Efficacy in Software Debugging Prompts using Retrieval-Augmented Generation (RAG)
+This project focuses on enhancing ChatGPT’s effectiveness in debugging by implementing Retrieval-Augmented Generation (RAG) techniques. By dynamically retrieving relevant debugging resources and integrating them into ChatGPT’s responses, the project addresses critical limitations such as generic interactions and inefficient bug localization.
 
-This project entails a comprehensive analysis of ChatGPT's efficiency in addressing software debugging prompts. Utilizing a rich dataset from DevGPT, including GitHub issues, commits, and discussion sections, the study uncovers extensive usage of ChatGPT in software debugging contexts. We execute sentiment analysis on issue descriptions, revealing insights into the emotional tone of these interactions. Additionally, the project calculates the average resolution times across various programming languages, highlighting the differences in debugging complexities. The correlation between resolution times and programming languages is also explored, providing valuable metrics on how programming language complexity impacts debugging efficacy. This analysis offers a nuanced understanding of ChatGPT's role and effectiveness in software debugging, serving as a critical resource for developers and researchers in AI-enhanced programming environments and further help in enhancing future versions of ChatGPT.
+The analysis uses the DevGPT dataset, which comprises GitHub issues, commits, and discussion threads, to examine ChatGPT’s performance in real-world debugging scenarios. Sentiment analysis reveals the emotional tone of issue descriptions, while resolution times are analyzed across programming languages, highlighting differences in debugging complexity and ChatGPT’s adaptability when augmented with RAG.
 
-Dataset and Project Link:
-https://drive.google.com/file/d/1TvWMn0F8G2uDnMrNpz5wuL8RV-85QldG/view?usp=drive_link
+Dataset and Project Link: DevGPT Dataset
+Dataset Description: DevGPT Documentation
+How RAG Was Applied:
+Dynamic Retrieval of Debugging Context:
+ChatGPT was augmented with a retrieval layer to fetch relevant error documentation, prior discussions, and code examples dynamically. This ensured that responses were precise and contextually relevant.
 
-Dataset Description:
-https://github.com/NAIST-SE/DevGPT/blob/main/DevGPT_Link_Sharing_Preprint.pdf
+Integration into Interactions:
+Retrieved resources were seamlessly incorporated into ChatGPT's responses, enabling more targeted and actionable solutions for debugging challenges.
+
+Multi-Turn Dialogue Optimization:
+RAG enhanced ChatGPT’s ability to maintain context over multiple interactions by dynamically updating its responses based on new retrievals, ensuring progressively refined solutions.
 
 Findings:
-1. Generic Queries in Debugging: ChatGPT’s initial responses were often too broad, making bug identification slower. Developers had to manually refine queries due to the lack of targeted follow-up questions, which could have improved efficiency.
+Improved Query Specificity:
+With RAG, ChatGPT transitioned from generic, broad responses to specific, actionable suggestions by dynamically integrating relevant external data.
 
-2. Impact on Bug Localization: The absence of specific, relevant follow-ups resulted in longer times to identify and resolve bugs. More tailored interactions could have significantly sped up the process.
+Faster Bug Localization:
+RAG significantly reduced bug localization and resolution times by providing immediate access to debugging resources, enabling developers to address issues efficiently.
 
-3. Resolution Time Variations: Bug resolution times varied across languages, ranging from 1 to 56 days, depending on error complexity. This highlighted ChatGPT’s difficulty in addressing complex issues with generic responses.
+Language-Specific Insights:
+The analysis of resolution times revealed variances across programming languages, ranging from 1 to 56 days. RAG mitigated these differences by providing tailored debugging support based on language complexity.
 
-Dynamic Prompt Engineering Prototype:
-1. Single-Turn Interactions: The prototype improved ChatGPT’s responses by making them more relevant and focused on the specific issue at hand, reducing the need for additional clarifications.
+Impact of RAG Integration:
+Increased Debugging Efficiency:
+Bug resolution times were significantly reduced as ChatGPT responses became more context-aware and tailored to specific debugging scenarios.
 
-2. Multi-Turn Interactions: In multi-turn dialogues, the prototype refined each follow-up question, maintaining context and delivering progressively more precise responses, which enhanced debugging efficiency.
+Enhanced Developer Experience:
+Developers reported more intuitive interactions, with ChatGPT providing resources directly relevant to their debugging needs.
 
-3. Impact: By generating more targeted follow-up queries, the prototype reduced bug localization and resolution time, making interactions more efficient.
-
+This project demonstrates how Retrieval-Augmented Generation (RAG) can transform ChatGPT into a highly effective debugging assistant. By leveraging dynamic retrieval and context integration, this approach paves the way for more reliable and efficient AI-driven programming tools.
 
