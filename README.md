@@ -5,7 +5,9 @@ This project focuses on enhancing ChatGPT’s effectiveness in debugging by impl
 The analysis uses the DevGPT dataset, which comprises GitHub issues, commits, and discussion threads, to examine ChatGPT’s performance in real-world debugging scenarios. Sentiment analysis reveals the emotional tone of issue descriptions, while resolution times are analyzed across programming languages, highlighting differences in debugging complexity and ChatGPT’s adaptability when augmented with RAG.
 
 Dataset and Project Link: https://drive.google.com/file/d/1TvWMn0F8G2uDnMrNpz5wuL8RV-85QldG/view?usp=drive_link 
+
 Dataset Description: https://github.com/NAIST-SE/DevGPT/blob/main/DevGPT_Link_Sharing_Preprint.pdf
+
 How RAG Was Applied:
 Dynamic Retrieval of Debugging Context:
 ChatGPT was augmented with a retrieval layer to fetch relevant error documentation, prior discussions, and code examples dynamically. This ensured that responses were precise and contextually relevant.
