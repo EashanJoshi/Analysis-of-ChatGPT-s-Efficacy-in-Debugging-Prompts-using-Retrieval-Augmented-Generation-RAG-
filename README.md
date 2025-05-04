@@ -1,4 +1,4 @@
-# Quantitative Analysis of ChatGPT's Efficacy in Software Debugging Prompts using Retrieval-Augmented Generation (RAG)
+# DebugMate - Debugging Prompt Enhancer
 Quantitative Analysis of ChatGPT's Efficacy in Software Debugging Prompts using Retrieval-Augmented Generation (RAG)
 This project focuses on enhancing ChatGPT’s effectiveness in debugging by implementing Retrieval-Augmented Generation (RAG) techniques. By dynamically retrieving relevant debugging resources and integrating them into ChatGPT’s responses, the project addresses critical limitations such as generic interactions and inefficient bug localization.
 
